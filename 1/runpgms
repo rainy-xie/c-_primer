@@ -1,0 +1,10 @@
+echo "add:" && ./add.exe < data/add
+echo "add_item:" && ./add_item.exe < data/add_item
+echo "add_item2:" && ./add_item2.exe < data/add_item
+echo "avg_price:" && ./avg_price.exe < data/book_sales
+echo "item_io:" && ./item_io.exe < data/book_sales
+echo "occurs:" && ./occurs.exe < data/occurs
+echo "mysum:" && ./mysum.exe < data/mysum
+
+
+../noinput for_ex.exe forcount.exe main_only.exe whilecount.exe
