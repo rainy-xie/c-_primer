@@ -33,9 +33,9 @@
 #include <algorithm>
 using std::for_each;
 
-#include <tr1/functional>
-using std::tr1::bind; using namespace std::tr1::placeholders;
-using std::tr1::ref;
+#include <functional>
+using std::bind; using namespace std::placeholders;
+using std::ref;
 
 #include <iterator>
 using std::istream_iterator;

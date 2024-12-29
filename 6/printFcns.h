@@ -42,4 +42,5 @@ int j[2] = {0,1};
 print("Hello World");        // calls print(const char*)
 print(j, end(j) - begin(j)); // calls print(const int*, size_t)
 print(begin(j), end(j));     // calls print(const int*, const int*)
+}
 #endif
